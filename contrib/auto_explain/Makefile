@@ -8,6 +8,7 @@ PGFILEDESC = "auto_explain - logging facility for execution plans"
 
 TAP_TESTS = 1
 
+Get_Push
 ifdef USE_PGXS
 PG_CONFIG = pg_config
 PGXS := $(shell $(PG_CONFIG) --pgxs)
